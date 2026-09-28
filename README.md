@@ -31,7 +31,7 @@ On the first run, the app builds the warehouse (`data/fitpulse.duckdb`) from the
 
 | Command | What it does |
 |---|---|
-| `streamlit run app.py` | Launch the app at http://localhost:8501 |
+| `streamlit run app.py` | Launch the app at https://fitpulse-analysis.streamlit.app/ |
 | `python -m pipeline.build_warehouse` | Rebuild the warehouse from raw data |
 | `pytest -q` | Run the 7 data-quality tests |
 | Open `notebooks/FitPulse_EDA.ipynb` → Run All | The EDA notebook |
